@@ -37,8 +37,8 @@ console.log(movie);
       <div className="banner__contents">
         <h1 className="banner__title">{movie?.title || movie?.name || movie?.original_name}</h1>
         <div className="banner__buttons">
-          <button className='banner__button'>Play</button>
-          <button className='banner__button'>My List</button>
+          <button className='banner__button'>Lecture</button>
+          <button className='banner__button'>Ajouter à ma liste</button>
         </div>
         <h2 className="banner__description">{truncate(movie?.overview, 150)}</h2>
       </div>
